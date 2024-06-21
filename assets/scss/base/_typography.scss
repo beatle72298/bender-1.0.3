@@ -1,0 +1,86 @@
+/**
+ * Typography
+ */
+
+html,
+body {
+  font-family: $body-font;
+  font-weight: $body-font-weight;
+}
+
+html {
+  font-size: $basic-font-size;
+}
+
+body {
+  color: $text-color;
+  font-size: $paragraph;
+  line-height: $line-height;
+  background: var(--background);
+}
+
+h1,
+h2,
+h3 {
+  font-family: $header-font;
+  font-weight: 400;
+}
+
+h1 { font-size: 2em; line-height: 2; }
+h2 { font-size: 1.8em; line-height: 1.5; margin: 1.5rem 0 1.75rem; }
+h3 { font-size: 1.7em; line-height: 1.5; }
+h4 { font-size: 1.5em; line-height: 1.5; }
+
+p {
+  margin-bottom: 1.5rem;
+
+  &.title-lead {
+    margin: -1.5rem 0 2.5rem;
+    font-size: 1.1em;
+    opacity: .7;
+  }
+
+  &.sub {
+    margin: 1rem 0;
+    font-size: .9em;
+  }
+}
+
+html,
+button,
+input,
+select,
+textarea {
+  color: var(--text)
+}
+
+a {
+  color: var(--link);
+  text-decoration: none;
+
+  &:visited {
+    outline: 0;
+  }
+
+  &:focus,
+  &:active,
+  &:hover {
+    color: var(--link-hover);
+    text-decoration: none;
+    outline: 0;
+  }
+}
+
+i,
+em {
+  font-style: italic;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+.br {
+  display: block;
+}

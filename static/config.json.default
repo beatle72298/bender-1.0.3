@@ -1,0 +1,16 @@
+{
+  "titlePrefix": "Bender",
+  "title": "Dashboard",
+  "titleIcon": "fas fa-robot",
+  "theme": "auto",
+  "disableEdit": false,
+  "pages": {
+    "default": {
+      "title": "Home",
+      "slug": "default",
+      "icon": "fas fa-house",
+      "order": 0,
+      "items": []
+    }
+  }
+}
