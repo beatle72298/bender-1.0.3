@@ -5,7 +5,7 @@ services:
     # image: jez500/bender
     #To build from source, comment previous line and uncomment below
     build: .
-    container_name: homer
+    container_name: bender-custom
     volumes:
       - /your/local/assets/:/app/static
     ports:
